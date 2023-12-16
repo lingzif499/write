@@ -13,18 +13,18 @@
 以Windows系统为例：（hosts文件位于C:\Windows\System32\drivers\etc下）
 
 ....前略....
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
+localhost name resolution is handled within DNS itself.
+127.0.0.1       localhost
+::1             localhost
 
-#在此处写下需要本机ip地址（即需要转发至的地址）与触发转发条件的请求域名
-#以下一行意为：当连接到此计算机热点的设备请求www.example.com时都会被解析至192.168.31.22:80
+在此处写下需要本机ip地址（即需要转发至的地址）与触发转发条件的请求域名
+以下一行意为：当连接到此计算机热点的设备请求www.example.com时都会被解析至192.168.31.22:80
 
 192.168.31.22 www.example.com
   
-# To allow the same kube context to work on the host and the container:
+To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
-# End of section
+End of section
 
 
 2、在计算机上安装服务器软件。在此以VSCode文本编辑器下的live-server插件为例
