@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>网页跳转</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <h1>欢迎</h1>
+      <p>网页跳转器</p>
+    <ul>
+      <button onclick="window.location.href = 'http://cn.bing.com';">必应</button><br />
+      <button onclick="window.location.href = 'http://www.bilibili.com';">哔哩哔哩</button><br />
+      <button onclick="window.location.href = 'http://www.baidu.com';">百度</button><br />
+      <button onclick="window.location.href = 'http://zhixue.com';">智学网</button><br />
+      <br />
+    </ul>
+</body>
+</html>
